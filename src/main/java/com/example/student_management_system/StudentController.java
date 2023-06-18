@@ -9,6 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @RestController // indicates that this class is responsible for handling the http request and respond in RESTful manner
+@RequestMapping("/student")
 public class StudentController {
     //we will do crud operations here
     @Autowired
